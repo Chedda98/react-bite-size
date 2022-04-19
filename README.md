@@ -8,4 +8,7 @@
 - [Create React App](https://github.com/Chedda98/react-bite-size/blob/main/%EA%B3%B5%EB%B6%80%20%EA%B8%B0%EB%A1%9D%EC%9E%A5/create%20react%20app.md)
 
 ### 2️⃣ 스터디 기록장
-- [Component]()
+- [Component](https://github.com/Chedda98/react-bite-size/blob/main/%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B8%B0%EB%A1%9D%EC%9E%A5/component.md)
+
+### 3️⃣ 스터디 실습 예제
+- [reactexam2](https://github.com/Chedda98/react-bite-size/tree/main/reactexam2)
