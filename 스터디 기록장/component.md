@@ -17,7 +17,9 @@ ex) 컴포넌트 활용 예시 (블로그)
 <br>
 
 ### ② 컴포넌트의 종류
-- 리액트에서 정의하는 컴포넌트 종류는 크게 함수형 컴포넌트, 클래스형 컴포넌트 2가지가 있다. <br>
+- 리액트에서 정의하는 컴포넌트 종류는 크게 함수형 컴포넌트, 클래스형 컴포넌트 2가지가 있다.
+<br>
+
 ②-1. 함수형 컴포넌트(Stateless Functional Component)
 ```
 import React from 'react'; 
@@ -59,11 +61,13 @@ export default MyComponent; //다른 JS파일에서 불러올 수 있도록 내�
 > 그게 언젠데❓ 예전에 만들어진 리액트 관련 라이브러리는 Hooks 의 지원이 안되는 경우도 있고, react-native 관련 라우터 라이브러리인 react-native-navigation 의 경우에 클래스형 컴포넌트를 어쩔 수 없이 써야 하는 일이 종종 있다~고~한다~
 
 ### ③ 간단 실습 - 레이아웃 나누기
-**💻 공통 App.js 파일**
-<img width="628" alt="공통 App js 파일" src="https://user-images.githubusercontent.com/68318945/164038904-5d5cfae9-3eec-42b9-a570-2e6b21b35f7d.png">
-③-1. 함수형 컴포넌트 생성
+**💻 공통 App.js 파일** <br>
+<img width="628" alt="공통 App js 파일" src="https://user-images.githubusercontent.com/68318945/164038904-5d5cfae9-3eec-42b9-a570-2e6b21b35f7d.png"> 
+<br>
+
+③-1. 함수형 컴포넌트 생성 <br>
 <img width="522" alt="함수형 컴포넌트 예제" src="https://user-images.githubusercontent.com/68318945/164039634-ce30d056-4010-48d7-b274-2fe028314b36.png">
 <br>
 
-③-2. 클래스형 컴포넌트 생성
+③-2. 클래스형 컴포넌트 생성 <br>
 <img width="523" alt="클래스형 컴포넌트 파일 예제" src="https://user-images.githubusercontent.com/68318945/164038928-9fae7056-3f5e-43de-9e8f-43e7bf8963d2.png">
