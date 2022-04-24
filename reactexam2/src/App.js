@@ -1,16 +1,31 @@
-import React, { Component } from 'react'; // 리액트를 구현할 수 있는 플러그인을 연결
-import Header from './component/Header';
-import Main from './component/Main';
-import Footer from './component/Footer';
-// JS파일에 외부 파일을 불러오는 것이기 때문에 "import" 키워드를 사용한다. 
-// 같은 JS파일은 확장자를 사용하지 않는다.
+import React from 'react';
+import Counter from './Counter';
+// import "./App.css";
+
+import MyHeader from './MyHeader';
+// import MyFooter from "./MyFooter";
 
 function App() {
+  let name = "체다";
+
+  const style = {
+    App: {
+      backgroundColor: "black",
+    },
+    h2: {
+      color: "red",
+    },
+    bold_text: {
+      color: "green",
+    },
+  };
+
+  const number = 5;
+
   return (
     <div>
-      <Header />
-      <Main />
-      <Footer />
+      <MyHeader />
+      <Counter />
     </div>
   );
 }
