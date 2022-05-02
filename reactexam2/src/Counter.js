@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 const Counter = () => {
 
@@ -8,23 +8,14 @@ const Counter = () => {
   // count 상태
   // h2 부분을 동적으로 변화시키고자 함
 
-  console.log("counter 호출!");
-
-  const [count, setCount] = useState(0);
-
-  const onIncrease = () => {
-    setCount(count + 1);
-  }
-
-  const onDecrease = () => {
-    setCount(count - 1);
-  }
-
+  const [value, setValue] = useState(0);
   return (
     <div>
-      <h2>{count}</h2>
-      <button onClick={onIncrease}>+</button>
-      <button onClick={onDecrease}>-</button>
+      <p>
+        현재 카운터 값은 <b>{value}</b> 입니다.
+      </p>
+      <button onClick={() => setValue(value + 1)}>+1</button>
+      <button onClick={() => setValue(value - 1)}>-1</button>
     </div>
   )
 }

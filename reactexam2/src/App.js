@@ -1,33 +1,26 @@
-import React from 'react';
-import Counter from './Counter';
+import React, { useState } from 'react';
+// import Counter from './Counter';
+import Info from './Info';
 // import "./App.css";
 
-import MyHeader from './MyHeader';
+// import MyHeader from './MyHeader';
 // import MyFooter from "./MyFooter";
 
-function App() {
-  let name = "체다";
-
-  const style = {
-    App: {
-      backgroundColor: "black",
-    },
-    h2: {
-      color: "red",
-    },
-    bold_text: {
-      color: "green",
-    },
-  };
-
-  const number = 5;
-
+const App = () => {
+  const [visible, setVisible] = useState(false);
   return (
     <div>
-      <MyHeader />
-      <Counter />
+      <button 
+        onClick={() => {
+          setVisible(!visible)
+        }}
+      >
+        {visible ? '숨기기' : '보이기'}
+      </button>
+      <hr />
+      {visible && <Info />}
     </div>
-  );
+  )
 }
 
 export default App;
