@@ -35,7 +35,7 @@ axios.post('/users', {
 # 실습
 따끈따끈한 솝커톤 코드 다시 봐볼까? ㅎㅎ 우리 솝커톤 때는
 ![정리 후 결과](https://user-images.githubusercontent.com/68318945/169848825-4b13e7ae-5cf0-44f4-b415-8cea5a907e89.jpg)
-여기서 00명의 히어로 부분을 서버와 통신했어! 데이터 조회라 `GET` 방식을 이용했고, 코드로는
+여기서 *00명의 히어로* 부분을 서버와 통신했어! 데이터 조회라 `GET` 방식을 이용했고, 코드로는
 ```js
 const [userCount, setUserCount] = useState('');
 
