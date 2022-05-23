@@ -7,7 +7,7 @@
 - 컴포넌트는 데이터(Props)를 입력받아 View(state) 상태에 따라 DOM Node를 출력하는 함수!
 - 컴포넌트 이름은 항상 `대문자`로 시작하도록 한다! (리액트는 *소문자로 시작하는 컴포넌트를 DOM 태그로 취급*하기 때문)
 - UI를 재사용 가능한 개별적인 여러 조각으로 나누고, 각 조각을 개별적으로 나누어 코딩한다.
-- 개념적으로 컴포넌트는 JavaScript 함수와 유사함! **“props”**라고 하는 임의의 입력을 받은 후, 화면에 어떻게 표시되는지를 기술하는 React 엘리먼트를 반환한다.
+- 개념적으로 컴포넌트는 JavaScript 함수와 유사함! **props**라고 하는 임의의 입력을 받은 후, 화면에 어떻게 표시되는지를 기술하는 React 엘리먼트를 반환한다.
 
 ex) 컴포넌트 활용 예시 (블로그)
 - 글 목록 컴포넌트 1개, 결과 컴포넌트를 1개 생성하여 다음과 같은 화면을 구성할 수 있다. 
@@ -38,6 +38,7 @@ export default MyComponent; //다른 JS파일에서 불러올 수 있도록 내�
 ②-2. 클래스형 컴포넌트(Class Component)
 ```
 import React from 'react'; 
+
 class MyComponent extends React.Component { 
   constructor(props) { // 생성함수 
     super(props); 
