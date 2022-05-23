@@ -9,6 +9,8 @@
 
 ### 2️⃣ 스터디 기록장
 - [Component](https://github.com/Chedda98/react-bite-size/blob/main/%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B8%B0%EB%A1%9D%EC%9E%A5/component.md)
+- [hooks](https://github.com/Chedda98/react-bite-size/blob/main/%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B8%B0%EB%A1%9D%EC%9E%A5/hooks.md)
+- [React API 연동](https://github.com/Chedda98/react-bite-size/blob/main/%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B8%B0%EB%A1%9D%EC%9E%A5/React%20API%20%EC%97%B0%EB%8F%99.md)
 
 ### 3️⃣ 스터디 실습 예제
 - [reactexam2](https://github.com/Chedda98/react-bite-size/tree/main/reactexam2)
